@@ -26,7 +26,7 @@ public class BookDetail_jsp extends HttpJspBase {
 
 		String userName = request.getParameter("Name"); 
 		out.println (userName);
-		printSanitizedName(userName); // TESTING
+		printSanitizedName(userName); // Test 1
 	}
 
 	public static void loadAccount () {
